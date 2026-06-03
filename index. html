@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Universal Finance Company</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#f5f7fa;
+}
+
+header{
+background:linear-gradient(135deg,#003366,#0066cc);
+color:white;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+font-size:45px;
+}
+
+.hero{
+height:500px;
+background:url('https://images.unsplash.com/photo-1554224155-6726b3ff858f') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.hero-box{
+background:rgba(0,0,0,0.6);
+padding:40px;
+color:white;
+text-align:center;
+border-radius:15px;
+}
+
+.hero-box h2{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero-box p{
+font-size:20px;
+}
+
+.section{
+padding:60px 10%;
+}
+
+.section h2{
+text-align:center;
+color:#003366;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-5px);
+transition:.3s;
+}
+
+.card h3{
+color:#0066cc;
+margin-bottom:15px;
+}
+
+.trust{
+background:#003366;
+color:white;
+padding:60px;
+text-align:center;
+}
+
+.trust h2{
+margin-bottom:20px;
+}
+
+footer{
+background:#001f3f;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+a{
+text-decoration:none;
+color:white;
+}
+
+.btn{
+background:gold;
+padding:12px 25px;
+display:inline-block;
+margin-top:20px;
+color:black;
+font-weight:bold;
+border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Universal Finance Company</h1>
+<p>Your Trusted Financial Partner</p>
+</header>
+
+<div class="hero">
+<div class="hero-box">
+<h2>Secure Your Financial Future</h2>
+<p>Trusted Finance Solutions For Every Family</p>
+<a href="about.html" class="btn">Know More</a>
+</div>
+</div>
+
+<section class="section">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Monthly Savings Plans</h3>
+<p>Flexible monthly savings plans with attractive benefits.</p>
+</div>
+
+<div class="card">
+<h3>Finance Schemes</h3>
+<p>Affordable and customer-friendly finance solutions.</p>
+</div>
+
+<div class="card">
+<h3>Investment Support</h3>
+<p>Professional guidance for secure investments.</p>
+</div>
+
+<div class="card">
+<h3>Customer Assistance</h3>
+<p>Dedicated support team available for customers.</p>
+</div>
+
+<div class="card">
+<h3>Quick Documentation</h3>
+<p>Fast approval process with minimum paperwork.</p>
+</div>
+
+<div class="card">
+<h3>Business Funding</h3>
+<p>Supporting small and medium businesses.</p>
+</div>
+
+<div class="card">
+<h3>Gold Loan Assistance</h3>
+<p>Quick financial support against gold assets.</p>
+</div>
+
+<div class="card">
+<h3>Financial Planning</h3>
+<p>Helping customers achieve long-term goals.</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="trust">
+
+<h2>Why Choose Universal Finance?</h2>
+
+<p>✔ Trusted Service</p>
+<p>✔ Customer Satisfaction</p>
+<p>✔ Transparent Process</p>
+<p>✔ Quick Approval</p>
+<p>✔ Professional Team</p>
+<p>✔ Secure Financial Solutions</p>
+<p>✔ Reliable Customer Support</p>
+
+</div>
+
+<footer>
+© 2026 Universal Finance Company
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Universal Finance</title>
+
+<style>
+
+body{
+font-family:Segoe UI;
+background:#f5f7fa;
+margin:0;
+}
+
+header{
+background:#003366;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px;
+}
+
+.box{
+background:white;
+padding:30px;
+border-radius:15px;
+margin-bottom:25px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+h2{
+color:#003366;
+}
+
+.contact{
+background:#0066cc;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Universal Finance Company</h1>
+<p>About Us</p>
+</header>
+
+<div class="container">
+
+<div class="box">
+
+<h2>Our Vision</h2>
+
+<p>
+Universal Finance Company aims to provide reliable,
+transparent and customer-friendly financial services.
+We believe in building long-term relationships with
+our customers through trust and commitment.
+</p>
+
+</div>
+
+<div class="box">
+
+<h2>Managing Director</h2>
+
+<p><strong>Mr. Murugesan</strong></p>
+
+<p>
+Under his leadership, Universal Finance Company has
+earned customer confidence through honest service,
+financial discipline and professional support.
+</p>
+
+</div>
+
+<div class="box">
+
+<h2>Our Strengths</h2>
+
+<ul>
+<li>Trusted Financial Guidance</li>
+<li>Fast Loan Processing</li>
+<li>Secure Savings Plans</li>
+<li>Transparent Policies</li>
+<li>Customer First Approach</li>
+<li>Professional Documentation Support</li>
+<li>Reliable Service Network</li>
+</ul>
+
+</div>
+
+<div class="box contact">
+
+<h2>Contact Details</h2>
+
+<p><b>Managing Director:</b> Mr. Murugesan</p>
+
+<p><b>Mobile:</b> 9489252705</p>
+
+<p><b>Branch:</b> Lalapettai</p>
+
+<p><b>Office Contact:</b> 8838709684</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
